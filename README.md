@@ -190,6 +190,8 @@ La vista general muestra los dos recorridos. Abrir las imágenes para ampliarlas
 
 ![Canvas completo y consulta exitosa](capturas/workflow-consulta-exitosa.jpg)
 
+![Salida JSON registrada para revisión humana](capturas/salida-json-exitosa.jpg)
+
 ![Ingesta desde Google Sheets](capturas/workflow-ingesta.jpg)
 
 ![Cinco fragmentos en la salida de ingesta](capturas/ingesta-cinco-fragmentos.jpg)
