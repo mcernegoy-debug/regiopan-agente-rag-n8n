@@ -1,0 +1,24 @@
+{
+  "caso": "excepcion",
+  "entrada": {
+    "telefono": "5491100000101",
+    "mensaje": "¿Podés confirmar la entrega después de las 16?"
+  },
+  "codigo_http": 200,
+  "segundos": 8.187,
+  "salida": {
+    "estado": "registrada",
+    "consulta": {
+      "id_consulta": "20",
+      "fecha_utc": "2026-11-13T18:03:28.052Z",
+      "telefono": "5491100000101",
+      "mensaje": "¿Podés confirmar la entrega después de las 16?",
+      "respuesta_sugerida": "¡Hola! Las entregas habituales son por la mañana. Una entrega después de las 16 hs. es una excepción que María debe evaluar. ¡Gracias por tu consulta!",
+      "motivo_revision": "excepcion",
+      "estado_revision": "pendiente_decision_maria",
+      "fuentes": "RP-04",
+      "requiere_revision": true,
+      "validacion": "correcta"
+    }
+  }
+}

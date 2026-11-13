@@ -1,0 +1,13 @@
+{
+  "caso": "error_registro",
+  "entrada": {
+    "telefono": "5491100000103",
+    "mensaje": "¿Qué día entregan en Zona Norte?"
+  },
+  "codigo_http": 503,
+  "segundos": 7.094,
+  "salida": {
+    "estado": "error",
+    "mensaje": "No se pudo confirmar el registro. Revisar la bandeja antes de reintentar para evitar duplicados."
+  }
+}

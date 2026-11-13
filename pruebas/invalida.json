@@ -1,0 +1,13 @@
+{
+  "caso": "invalida",
+  "entrada": {
+    "telefono": "5491100000102",
+    "mensaje": "   "
+  },
+  "codigo_http": 400,
+  "segundos": 2.313,
+  "salida": {
+    "estado": "consulta_rechazada",
+    "mensaje": "Enviá una consulta de hasta 1200 caracteres y un teléfono válido de 8 a 15 dígitos."
+  }
+}

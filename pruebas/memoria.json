@@ -1,0 +1,24 @@
+{
+  "caso": "memoria",
+  "entrada": {
+    "telefono": "5491100000101",
+    "mensaje": "¿Y en CABA?"
+  },
+  "codigo_http": 200,
+  "segundos": 7.375,
+  "salida": {
+    "estado": "registrada",
+    "consulta": {
+      "id_consulta": "19",
+      "fecha_utc": "2026-11-13T18:02:39.344Z",
+      "telefono": "5491100000101",
+      "mensaje": "¿Y en CABA?",
+      "respuesta_sugerida": "¡Hola! Las entregas habituales en CABA se realizan los jueves por la mañana. Si necesitás otro día u horario, María puede evaluar tu solicitud. ¡Gracias por tu consulta!",
+      "motivo_revision": "revision_habitual",
+      "estado_revision": "pendiente_revision_habitual",
+      "fuentes": "RP-03",
+      "requiere_revision": true,
+      "validacion": "correcta"
+    }
+  }
+}

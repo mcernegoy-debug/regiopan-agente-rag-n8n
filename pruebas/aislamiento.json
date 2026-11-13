@@ -1,0 +1,24 @@
+{
+  "caso": "aislamiento",
+  "entrada": {
+    "telefono": "5491100000102",
+    "mensaje": "¿En qué zona te dije que estoy? Si no te lo dije, pedime que la indique."
+  },
+  "codigo_http": 200,
+  "segundos": 7.062,
+  "salida": {
+    "estado": "registrada",
+    "consulta": {
+      "id_consulta": "23",
+      "fecha_utc": "2026-11-13T18:07:08.396Z",
+      "telefono": "5491100000102",
+      "mensaje": "¿En qué zona te dije que estoy? Si no te lo dije, pedime que la indique.",
+      "respuesta_sugerida": "¡Hola! No tengo registrada tu zona de entrega. Por favor, ¿podrías indicarme en qué zona estás así puedo ayudarte mejor? ¡Gracias!",
+      "motivo_revision": "falta_informacion",
+      "estado_revision": "pendiente_decision_maria",
+      "fuentes": "",
+      "requiere_revision": true,
+      "validacion": "correcta"
+    }
+  }
+}
