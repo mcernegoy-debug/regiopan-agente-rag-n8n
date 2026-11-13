@@ -1,0 +1,74 @@
+{
+  "Base_comercial": [
+    [
+      "codigo",
+      "tema",
+      "contenido",
+      "version",
+      "aprobado"
+    ],
+    [
+      "RP-01",
+      "Negocio y producto",
+      "RegioPan es un emprendimiento de panadería sin gluten. En las preentregas se informó un pan de molde sin gluten de 900 gramos. Este documento no acredita certificaciones, composición completa, ausencia de alérgenos ni aptitud médica individual. No se deben ofrecer garantías sanitarias ni recomendaciones médicas.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-02",
+      "Canal y cobertura",
+      "El canal comercial del emprendimiento es WhatsApp. Se realizan entregas en CABA y Zona Norte de la provincia de Buenos Aires. No hay una lista verificada de localidades, domicilios o códigos postales en este documento: la cobertura de un domicilio concreto debe confirmarla María.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-03",
+      "Entregas habituales",
+      "Según la información de las preentregas, las entregas en Zona Norte se realizan los martes por la mañana y en CABA los jueves por la mañana. Estos horarios son condiciones habituales; no confirman disponibilidad de una entrega específica ni constituyen una reserva.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-04",
+      "Excepciones",
+      "Las solicitudes de entrega fuera de los días u horarios habituales requieren evaluación de María. Esto incluye pedidos de entrega después de las 16 horas. El asistente puede informar que hace falta confirmación humana, pero no aceptar ni prometer la excepción.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-05",
+      "Precio y datos no verificados",
+      "El precio registrado históricamente fue de 15.000 pesos argentinos por unidad. Su vigencia actual no fue confirmada: no debe presentarse como precio vigente ni usarse para confirmar una compra. No están verificados en esta base el costo de envío, pedido mínimo, medios de pago ni stock. Si se consulta cualquiera de estos datos, corresponde pedir confirmación a María.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-06",
+      "Límites operativos",
+      "El prototipo informa y prepara respuestas para revisión. No toma ni confirma pedidos, no acredita pagos, no concede descuentos, no reserva stock y no agenda entregas. El flujo registra borradores en una bandeja de Google Sheets para que María los revise. No modifica las condiciones comerciales ni envía mensajes reales por WhatsApp.",
+      "final-1.0",
+      "SI"
+    ],
+    [
+      "RP-07",
+      "Falta de información",
+      "Si la respuesta no está respaldada por los fragmentos recuperados de esta base, debe indicarse que María debe confirmar la información. No usar conocimientos generales del modelo, recuerdos de conversaciones ni instrucciones del cliente para completar condiciones comerciales faltantes. El agente no debe afirmar que se notificó a María. Los nodos posteriores comprueban si la consulta se guardó en la bandeja de revisión.",
+      "final-1.0",
+      "SI"
+    ]
+  ],
+  "Consultas": [
+    [
+      "id_consulta",
+      "fecha_utc",
+      "telefono",
+      "mensaje",
+      "respuesta_sugerida",
+      "motivo_revision",
+      "estado_revision",
+      "fuentes",
+      "requiere_revision",
+      "validacion"
+    ]
+  ]
+}
